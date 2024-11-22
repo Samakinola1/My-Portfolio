@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: #007BFF;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+header nav{
+    display: flex;
+    align-items: center;
+}
+header nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+.logoCont{
+    width: 30%;
+}
+.logo{
+    vertical-align: top;
+    text-align: left;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background: white;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.logo p{
+    margin-left: 25px;
+    font-weight: bold;
+    color: black;
+    text-transform: uppercase;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: #f4f4f4;
+}
+
+.about, .cv-section, .contact {
+    padding: 50px 20px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-pic {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    border: 6px solid #007bff;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#cv-download-link {
+    display: inline-block;
+    padding: 10px 15px;
+    background: #28a745;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#cv-download-link:hover {
+    background: #218838;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: white;
+}
